@@ -221,7 +221,6 @@ nav ul {
 
 #sobre h1,
 #projetos h1 {
-    padding: 20px;
     background-color: #FFF;
     text-align: center;
 
@@ -244,12 +243,4 @@ nav ul {
 
 .imagemsobre {
     flex: 1 1 100vw;
-}
-
-
-
-.separadorlinha {
-    border-bottom: 5px solid var(--cor3);
-    height: 1px;
-    width: 100%;
 }

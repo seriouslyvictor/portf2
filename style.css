@@ -245,6 +245,10 @@ nav ul {
  flex: 0 1 400px;
 }
 
+.imagemsobre {
+    flex: 1 1 100vw;
+}
+
 
 
 .separadorlinha {

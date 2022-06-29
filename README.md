@@ -1,2 +1,2 @@
 # portf2
- Modelo de Portfólio par aos alunos
+ Modelo de Portfólio para os alunos

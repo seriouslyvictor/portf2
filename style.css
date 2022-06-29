@@ -27,6 +27,10 @@ h1 {
     font-size: 2rem;
 }
 
+section {
+    border-bottom: 5px solid var(--cor3);
+}
+
 nav {
     background-color: var(--cor2);
     height: 40px;
@@ -239,8 +243,4 @@ nav ul {
 
 .textosobre {
  flex: 0 1 400px;
-}
-
-.imagemsobre {
-    flex: 1 1 100vw;
 }

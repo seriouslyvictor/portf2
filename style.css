@@ -217,11 +217,6 @@ nav ul {
     flex-flow: row wrap;
 }
 
-.separadorc {
-    position: relative;
-    margin-bottom: 40px;
-}
-
 #sobre h1,
 #projetos h1 {
     background-color: #FFF;

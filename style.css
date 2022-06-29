@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --fontp:'Orbitron', sans-serif;
+
+    --cor1: #FCA311;
+    --cor2: #14213D;
+    --cor3: #0A1428;
+    --cor4: #e5e5e5;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontp);
+}
+
+
+h1 {
+    color: var(--cor1);
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: var(--cor2);
+    height: 40px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+
+}
+
+strong {
+    color: var(--cor1);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: var(--cor3);
+    transition: 0.5s;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+nav  a:hover {
+    color: var(--cor4);
+    transition: 0.5s;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#hero, #sobre {
+    padding: 30px;
+}
+
+.grideu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+}
+
+.eu {
+    min-width: 286px;
+    max-width: 400px;
+}
+
+.oi {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.eu hr {
+    background-color: #555;
+    width: 4rem;
+    height: 0.4rem;
+    border-radius: 100px;
+}
+
+
+.eu h2 {
+    font-variant: small-caps;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    color: #555;
+}
+
+.eu h3 {
+    font-style: italic;
+    margin-bottom: 2rem;
+    color: #777;
+}
+
+.eu p {
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+.imagemeu {
+    justify-self: center;
+}
+
+#contato {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.2rem;
+}
+
+#projetos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+#contato a {
+    color: var(--cor2);
+}
+
+.gridc {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+ 
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px black;
+    min-height: 300px;
+    max-width: 300px;
+    position: relative;
+}
+
+.card h2 {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    opacity: 0;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; 
+    background-color: #e5e5e534;
+    backdrop-filter: blur(15px);
+    width: 102%;
+    padding: 10px;
+    color: var(--cor3);
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+}
+
+
+.card  img {
+    border-radius: 9px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card a {
+    width: 95%;
+    height: 95%;
+    
+}
+
+.card:hover > h2 {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.flexeu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.separadorc {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#sobre h1,
+#projetos h1 {
+    padding: 20px;
+    background-color: #FFF;
+    text-align: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sobre h2 {
+    color: var(--cor3);
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+#sobre p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.textosobre {
+ flex: 0 1 400px;
+}
+
+
+
+.separadorlinha {
+    border-bottom: 5px solid var(--cor3);
+    height: 1px;
+    width: 100%;
+}

@@ -224,10 +224,7 @@ nav ul {
     padding: 20px;
     background-color: #FFF;
     text-align: center;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
+
 }
 
 #sobre h2 {

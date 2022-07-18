@@ -28,10 +28,6 @@ h1 {
     font-size: 2rem;
 }
 
-section {
-    border-bottom: 5px solid var(--cor3);
-}
-
 nav {
     background-color: var(--cor2);
     height: 40px;
@@ -95,7 +91,6 @@ nav ul {
     background-image: url(imagens/layered-waves-haikei.svg)
 }
 
-
 .grideu {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -156,10 +151,12 @@ nav ul {
 }
 
 #projetos {
+    border-bottom: 5px solid var(--cor3);
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     text-align: center;
+    background-image: url(imagens/layered-peaks-haike2.svg);
 }
 
 #contato a {

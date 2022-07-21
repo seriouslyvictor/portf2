@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+    .grideu {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .imagemeu {
+     text-align: center;
+    }
+
+    .dev {
+        width: 90%;
+    }
+}
+
+@media(max-width: 700px) {
+    nav  p {
+        display: none;
+    }
+
+    nav i {
+       font-size: 32px; 
+    }
+
+}
+
+@media(max-width: 500px) {
+    .dev {
+        width: 100%;
+    }
+}
+
+.flexeu {
+ gap: 20px;
+}
+
+.stack {
+    width: 80%;
+    text-align: center;
+}

@@ -90,7 +90,6 @@ nav  p {
     background-color: var(--cor4);
     background-size: cover;
     background-repeat: no-repeat;
-    aspect-ratio: 960/540;
 }
 
 
@@ -241,7 +240,6 @@ nav  p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-flow: row wrap;
 }
 
 #sobre h1,
